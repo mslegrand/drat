@@ -1,0 +1,25 @@
+Package: pointR
+Version: 0.3.5.3
+Depends: R (>= 3.3.2),
+Imports: shiny, shinyAce, svgR, shinyDMDMenu
+Suggests: testthat
+License: MIT + file LICENSE
+MD5sum: bb38cbe991caa8dbec519ad3fd6c5109
+NeedsCompilation: no
+
+Package: shinyDMDMenu
+Version: 0.2.3
+Depends: R (>= 3.3.2), stringr (>= 1.1.0)
+Imports: shiny (>= 0.14.2.9001)
+License: MIT + file LICENSE
+MD5sum: 654f26a4d5a536cd19a81dad65ee34fa
+NeedsCompilation: no
+
+Package: svgR
+Version: 0.9
+Imports: stringr, R6, shiny
+Suggests: knitr, testthat
+License: MIT + file LICENSE
+MD5sum: ea6bda571c14b119eb6ecbb74d71bee6
+NeedsCompilation: no
+
