@@ -1,4 +1,4 @@
-# A Drat Repository for svgR
+# svgR and pointR: install & update with drat
 
 Why Drat? Drat provides an easy way to host a R package repository on Github, with seamless install and update capablilites. 
 The pointR package is still in flux, hence this makes drat the ideal candiate for distribution.
