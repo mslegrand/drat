@@ -1,4 +1,4 @@
-# svgR and pointR: install & update with drat
+# svgR and pointR: Install & Update with drat
 
 Why Drat? Drat provides an easy way to host a R package repository on Github, with seamless install and update capablilites. 
 The pointR package is still in flux, hence this makes drat the ideal candiate for distribution.
@@ -17,6 +17,6 @@ There are currently only 3 packages here.
 
 - svgR - a package to generate svg graphics in R
 - pointR - a shiny based ide for svgR
-- dmdm - a multilevel menubar for shiny. 
+- shinyDMDMenu - a dynamic multilevel dropdown menubar for Shiny. 
 
 - enjoy
