@@ -4,14 +4,29 @@ Why Drat? Drat provides an easy way to host a R package repository on Github, wi
 The pointR package is still in flux, hence this makes drat the ideal candiate for distribution.
 
 How to use:
-1. Install drat on your local machine:
-    + from CRAN via *install.packages("drat")*
-    + from github via *install.packages("drat", repos="http://eddelbuettel.github.io/drat")*
-2. Add this drat repo  using
-    + drat::addRepo("mslegrand")
-3. This repository has now been added as additional repository. So to install/update a package pkg simply issue
-    + install.packages(pkg) or 
-    + update.packages(pkg) 
+
+1. Install  the [drat](http://eddelbuettel.github.io/drat/) package manager.
+
+```
+install.packages("drat", repos="http://cran.rstudio.com")
+```
+2.  Add one line to your .Rprofile file (or to Rprofile.site) 
+
+```
+drat:::add("mslegrand")
+```
+If you don't have an .Rprofile, you should really consider adding one. It can be quite useful. 
+See [Customizing Startup](http://www.statmethods.net/interface/customizing.html)
+
+3. Install or update 
+
+```
+install.packages("svgR", "pointR", "shinyDMDMenu")
+```
+
+```
+update.packages("svgR", "pointR", "shinyDMDMenu")
+```
 
 There are currently only 3 packages here. 
 
