@@ -10,14 +10,14 @@ How to use:
 ```
 install.packages("drat", repos="http://cran.rstudio.com")
 ```
-2.  Add one line to your .Rprofile file (or to Rprofile.site) 
+2.  Add one line to your *.Rprofile* file (or to *Rprofile.site*) 
 
 ```
 drat:::add("mslegrand")
 ```
-If you don't have an .Rprofile, you should really consider adding one. It can be quite useful. 
+If you don't have an *.Rprofile*, you should really consider adding one. It can be quite useful. 
 
-See [Customizing Startup](http://www.statmethods.net/interface/customizing.html) for help on .Rprofile, Rprofile.site.
+See [Customizing Startup](http://www.statmethods.net/interface/customizing.html) for help on *.Rprofile*, *Rprofile.site*.
 
 3. Install or update 
 
