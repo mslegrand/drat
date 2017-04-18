@@ -31,8 +31,8 @@ update.packages("svgR", "pointR", "shinyDMDMenu")
 
 There are currently only 3 packages here. 
 
-- svgR - a package to generate svg graphics in R
-- pointR - a shiny based ide for svgR
-- shinyDMDMenu - a dynamic multilevel dropdown menubar for Shiny. 
+- **svgR** - a package to generate svg graphics in R
+- **pointR** - a shiny based ide for svgR
+- **shinyDMDMenu** - a dynamic multilevel dropdown menubar for Shiny. 
 
-- enjoy
+Enjoy!!
