@@ -17,9 +17,15 @@ drat:::add("mslegrand")
 ```
 If you don't have an *.Rprofile*, you should really consider adding one. It can be quite useful. 
 
+<<<<<<< HEAD
 For help on *.Rprofile*, *Rprofile see
 
 - [Customizing Startup](http://www.statmethods.net/interface/customizing.html) site*.
+=======
+For help on *.Rprofile*, *Rprofile.site* see
+
+- [Customizing Startup](http://www.statmethods.net/interface/customizing.html) 
+>>>>>>> master
 - [Fun with Rprofile](https://www.r-bloggers.com/fun-with-rprofile-and-customizing-r-startup/)
 
 3. Install or update 
