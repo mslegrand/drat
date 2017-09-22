@@ -1,10 +1,10 @@
 Package: pointR
-Version: 0.3.5.6.3
+Version: 0.3.5.6.4
 Depends: R (>= 3.3.2),
 Imports: shiny, shinyAce, svgR, shinyDMDMenu
 Suggests: testthat
 License: MIT + file LICENSE
-MD5sum: 907b8aaab31e47e94ab09c0252f4ad78
+MD5sum: ce8e5a5ba717fab59b9d5efa2431776f
 NeedsCompilation: no
 
 Package: shinyDMDMenu
