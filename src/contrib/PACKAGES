@@ -1,10 +1,12 @@
 Package: pointR
-Version: 0.3.5.6.5
+Version: 0.3.9.0
 Depends: R (>= 3.3.2),
-Imports: shiny, shinyAce, svgR, shinyDMDMenu
+Imports: shiny, shinyjs, R.utils, svgR, shinyAce, stringr, jsonlite,
+        shinyDMDMenu, shinyFiles, shinythemes, colourpicker,
+        shinyWidgets, bsplus, shinyjqui
 Suggests: testthat
 License: MIT + file LICENSE
-MD5sum: b4be5520d35741f8faa96972202e3f14
+MD5sum: 1b264500fdd30d345e17a86f4ca67d5d
 NeedsCompilation: no
 
 Package: shinyDMDMenu
